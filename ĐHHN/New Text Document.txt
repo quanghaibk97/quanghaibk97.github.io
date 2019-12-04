@@ -1,0 +1,10 @@
+1. Gt bản thân
+2. Xác định mục đích của website: 
+   + Cung cấp thông tin cho học sinh và phụ huynh muốn tìm hiểu về trường
+   + website cũng là nơi tạo ra sự liên kết giữa sinh viên giáo viên với nhà trường
+3. Lên ý tưởng dựa vào website gốc của ĐHHN và tham khảo thêm các webstie của 1 số trường đại học khác
+4. Màu sắc chủ đạo: 
+5 Bố cục
+	+ 3 phần
+6. nội dung từng phần
+7. reponsive
