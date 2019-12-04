@@ -21,7 +21,7 @@ html, body{
 .bphone .top{
     width: 100%;
     height: 650px;
-    background: url(pic/46.jpg);
+    background: url(pic/bg_top.jpg);
     background-size: cover;
 }
 .bphone .top .header{
