@@ -1,0 +1,318 @@
+/* Phần tổng thể */
+.tiki{
+    width: 100%;
+    margin: auto;
+    font-family: segue ui light;
+    background-color: rgb(241, 237, 237);
+}
+/* Phần đầu */
+.tiki .imgtop{}
+.tiki .imgtop img{
+    width: 100%;
+}
+/* Phần tiện ích */
+.tiki .tienich{
+    color: white;
+    background-color: rgb(60, 72, 236);
+    display: flex;
+    margin: auto;
+}
+/* Phần tìm kiếm */
+.tiki .search{
+    background-color: rgb(61, 162, 221);
+    height: 120px;
+    margin-top: 0px;
+}
+/* Thanh tìm kiêm phía trên */
+.tiki .search .tren{
+    height: 60px;
+    margin-top: 0px;
+    display: flex;
+}
+.tiki .search .tren .icon img{
+    width: 60px;
+    margin-left: 35px;
+    padding-top: 10px;
+}
+.tiki .search .tren .tikinow img{
+    width: 100px;
+    margin-left: 35px;
+    padding-top: 20px;
+}
+.tiki .search .tren .timkiem{
+    border-radius: 2px;
+    display: flex;
+    width: 430px;
+    padding-top: 15px;
+    padding-left: 25px;
+}
+.tiki .search .tren .timkiem .search{
+    width: 298px;
+    height: 40px;
+    background-color: white;
+}
+.tiki .search .tren .timkiem button{
+    height: 40px;
+    width: 128px;
+}
+.tiki .search .tren .donhang{
+    display: flex;
+    text-decoration: none;
+    width: 110px;
+    padding-top: 15px;
+    margin-left: 35px;
+    color: white;
+}
+.tiki .search .tren .donhang .fa{
+    margin: auto;
+}
+.tiki .search .tren .donhang .text{
+    margin-left: 10px;
+}
+.tiki .search .tren .thongbao{
+    text-decoration: none;
+    display: flex;
+    width: 110px;
+    padding-top: 15px;
+    margin-left: 35px;
+    color: white;
+}
+.tiki .search .tren .thongbao .fas{
+    margin: auto;
+}
+.tiki .search .tren .thongbao .text{
+    margin-left: 10px;
+}
+.tiki .search .tren .dangnhap{
+    text-decoration: none;
+    display: flex;
+    width: 110px;
+    padding-top: 15px;
+    margin-left: 35px;
+    color: white;
+}
+.tiki .search .tren .dangnhap .fas{
+    margin: auto;
+}
+.tiki .search .tren .dangnhap .text{
+    margin-left: 10px;
+}
+.tiki .search .tren .giohang{
+    text-decoration: none;
+    display: flex;
+    width: 120px;
+    height: 40px;
+    margin-top: 23px;
+    margin-left: 35px;
+    color: white;
+    border: solid 3px;
+    border-radius: 3px;
+    border-block-end-color: white;
+}
+.tiki .search .tren .giohang .fas{
+    margin: auto;
+}
+.tiki .search .tren .giohang .text{
+    margin-left: 10px;
+    margin: auto;
+}
+/* Phần tìm kiếm phía dưới */
+.tiki .search .duoi{
+    display: flex;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 35px;
+    padding-bottom: 10px;
+    font-size: 17px;
+    color: white;
+}
+.tiki .search .duoi .sanpham{}
+.tiki .search .duoi .down{
+    padding-left: 30px;
+}
+.tiki .search .duoi .down a{
+    color: white;
+    text-decoration: none;
+}
+.tiki .search .duoi .giaonhanh{
+    display: flex;
+    width: 230px;
+    padding-left: 30px;
+    font-size: 12px;
+}
+.tiki .search .duoi .giaonhanh img{
+    width: 23%;
+    background-color: white;
+    border-radius: 15px;
+}
+.tiki .search .duoi .giaonhanh a{
+    margin-top: 0px;
+    padding-left: 4px;
+    color: white;
+    text-decoration: none;
+}
+.tiki .search .duoi .chinhhieu{
+    padding-left: 30px;
+    display: flex;
+    width: 150px;
+    font-size: 12px;
+}
+.tiki .search .duoi .chinhhieu i{
+    padding-top: 10px;
+}
+.tiki .search .duoi .chinhhieu p{
+    padding-left: 4px;
+}
+/* Phần danh mục */
+.tiki .danhmuc{
+    position: relative;
+    border: solid gray;
+    border-width: 1px;
+    border-radius: 5px;
+    width: 1240px;
+    height: 550px;
+    margin-top: 10px;
+    margin-left: 50px;
+    display: flex;
+}
+/* Phần danh sách bên trái */
+.tiki .danhmuc .trai{
+    width: 250px;
+    padding-left: 10px;
+    list-style: none;
+    opacity: 0.9;
+}
+.tiki .danhmuc .trai li{
+    height: 35px;
+    font-size: 15px;
+    display: flex;
+}
+.tiki .danhmuc .trai li i{
+    padding-top: 3px;
+}
+.tiki .danhmuc .trai li p{
+    padding-left: 10px;
+}
+/* Phần danh sách bên phải */
+.tiki .danhmuc .phai{
+    position: absolute;
+    width: 990px;
+    margin-left: 250px;
+    display: flex;
+}
+.tiki .danhmuc .phai .left{
+    width: 580px;
+}
+.tiki .danhmuc .phai .left .ltren{
+    margin-top: 0px;
+    height: 360px;
+}
+.tiki .danhmuc .phai .left .ltren .slide img{
+    height: 360px;
+}
+.tiki .danhmuc .phai .left .lduoi{
+    height: 190px;
+    display: flex;
+}
+.tiki .danhmuc .phai .left .lduoi img{
+    width: 290px;
+    margin-bottom: 2px;
+}
+.tiki .danhmuc .phai .right{
+    width: 410px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2px;
+}
+.tiki .danhmuc .phai .right img{
+    width: 204px;
+    height: 182.5px;
+}
+.tiki .quangcao{
+    display: flex;
+    margin-top: 20px;
+    width: 1240px;
+    margin-left: 50px;
+}
+.tiki .quangcao img{
+    width: 300px;
+    height: 140px;
+    margin: auto;
+}
+.tiki .quantam{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.tiki .quantam .tren{}
+.tiki .quantam .duoi{
+    margin-top: 5px;
+    width: 1240px;
+    display: flex;
+}
+.tiki .quantam .duoi .a{
+    display: inline;
+    margin-top: 10px;
+    width: 193px;
+    height: 163px;
+    background-color: white;
+    margin: auto;
+}
+.tiki .quantam .duoi .a img{
+    width: 100px;
+    height: 100px;
+    margin-left: 46px;
+    margin-top: 31px;
+}
+.tiki .quantam .duoi .a .text{
+    padding-top: 3px;
+    text-align: center;
+}
+.tiki .hot{
+    width: 1240px;
+    height: 53px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.tiki.hot .tren{}
+.tiki .hot .duoi{
+    display: flex;
+}
+.tiki .hot .duoi .h{
+    margin-top: 10px;
+    width: 143px;
+    height: 45px;
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+    border: snow;
+    border-radius: 5px;
+    padding-top: 10px;
+    color: white;
+    opacity: 0.9;
+}
+.tiki .hot .h1{
+    background-color: rgb(0, 52, 93);
+}
+.tiki .hot .h2{
+    background-color: rgb(92, 10, 107);
+}
+.tiki .hot .h3{
+    background-color: rgb(153, 108, 0);
+}
+.tiki .hot .h4{
+
+    background-color: rgb(153, 39, 46);
+}
+.tiki .hot .h5{
+    background-color: rgb(151, 78, 6);
+}
+.tiki .hot .h6{
+    background-color: rgb(0, 109, 144);
+}
+.tiki .hot .h7{
+    background-color: rgb(22, 112, 46);
+}
+.tiki .hot .h8{
+    background-color: rgb(0, 52, 93);
+}
+

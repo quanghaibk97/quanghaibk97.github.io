@@ -1,0 +1,13 @@
+1. About me
+	+ Thông tin cơ bản
+	+ Triết lý Sống
+	+ Sở thích
+	+ Hoạt động
+2. Portfolio
+	+ Trình độ học vấn
+	+ Mục tiêu nghề nghiệp
+	+ Kỹ năng 
+	+ Kinh nghiệm làm việc
+	+ Sản phẩm của tôi
+3. Triết lý Sống
+	Mỗi người là m

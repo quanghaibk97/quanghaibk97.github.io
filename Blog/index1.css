@@ -1,0 +1,744 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+.opct{
+    opacity: 0;
+    visibility: hidden;
+
+}
+
+.blog{
+    width: 100%;
+    height: 100%;
+}
+.blog .top{
+    background: url(image/bg_top_6.jpg);
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+}
+.blog .top::after{
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-image: -webkit-linear-gradient(left, #000000de 0%, #00000026 50%, #000000de 100%);
+    background-attachment: fixed;
+}
+.blog .top .header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    width: 100%;
+}
+.blog .top .header .logo{
+    margin-left: 107px;
+}
+.blog .top .header .menu{
+    width: 59%;
+    margin-left: 145px;
+    margin-top: 51px;
+}
+.blog .top .header .menu ul{
+    /* padding: 0px; */
+    margin: 0px;
+    width: 101%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: Lato, helvetica, sans-serif;
+    font-size: 15px;
+    /* font-weight: bold; */
+    /* text-align: center; */
+}
+.blog .top .header .menu ul li{
+    /* width: 15%; */
+    text-align: center;
+}
+.blog .top .name{
+    width: 35%;
+    position: absolute;
+    top: 230px;
+    left: 50px;
+    z-index: 3;
+    color: white;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+.top .name .p1 {
+    font-size: 28px;
+    margin-left: 70px;
+}
+.top .name .p2 {
+    font-size: 40px;
+    font-weight: 900;
+    margin: 0;
+}
+.top .name .p3 {
+    font-size: 27px;
+    font-weight: 500;
+}
+.blog .top .icon{
+    width: 30%;
+    position: absolute;
+    top: 530px;
+    left: 60px;
+    z-index: 4;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    padding-left: 22px;
+}
+.top .icon .i1 {
+    margin-right: 15px;
+    width: 38px;
+    height: 38px;
+    border: 1px solid white;
+}
+.blog .top .icon .i1 a i{
+    color: white;
+    margin-top: 3px;
+}
+.blog .top .danhngon1{
+    width: 37%;
+    position: absolute;
+    top: 250px;
+    left: 783px;
+    z-index: 4;
+    font-size: 22px;
+    text-align: center;
+    color: #cec8c8;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    height: 100px;
+}
+.blog .top .danhngon2{
+    width: 40%;
+    position: absolute;
+    top: 320px;
+    left: 783px;
+    z-index: 4;
+    font-size: 22px;
+    text-align: center;
+    color: #d60a00;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+.blog .menu2{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    width: 100%;
+    height: 60px;
+    background: #4e4e4e;
+    line-height: 60px;
+    display: flex;
+    transition: 0.8s;
+}
+.blog .menu2 .logo{
+    width: 4%;
+    margin-left: 10%;
+    margin-top: 3px;
+}
+.blog .menu2 .logo img{
+    width: 100%;
+}
+.blog .menu2 ul{
+    width: 57%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-left: 220px;
+}
+
+.blog .menu2 ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Lato, helvetica, sans-serif;
+}
+
+.content{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.kinhnghiem h2 {
+    font-weight: 700;
+    font-family: "Oswald", sans-serif;
+    margin-bottom: 91px;
+    margin-top: 89px;
+    color: #383636;
+}
+.content > h2{
+    padding-top: 50px;
+    font-weight: 700;
+    font-family: "Oswald", sans-serif;
+    color: #555555;
+}
+.content .ttlh{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.content .ttlh .left{
+    margin-top: 5px;
+    width: 37%;
+}
+.content .ttlh .left img{
+    width: 100%;
+}
+.content .ttlh .right{
+    padding-top: 20px;
+    width: 50%;
+    display: inline-block;
+}
+.content .ttlh .right ._1row{
+    /* height: 59px; */
+    margin-top: -1px;
+    display: flex;
+    font-size: 22px;
+    font-family: 'Raleway',sans-serif;
+    border-bottom:  1px solid black;
+    border-top:  1px solid black;
+    color: #777;
+}
+.content .ttlh .right ._1row .p1{
+    width: 10%;
+}
+.content .ttlh .right ._1row .p2{
+    width: 30%;
+    text-align: left;
+    font-weight: 700;
+}
+.content .ttlh .right ._1row .p3{
+    width: 60%;
+    text-align: right;
+}
+.content .danhngon{
+    margin-top: 50px;
+    width: 100%;
+    height: 350px;
+    background: url(image/landmark3.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+    position: relative;
+}
+.content .danhngon::after{
+    content: '';
+    width: 100%;
+    height: 350px;
+    background: rgba(0, 0, 0, 0.39);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+.content .danhngon .p1{
+    position: absolute;
+    top: 120px;
+    left: 230px;
+    z-index: 2;
+}
+.content .danhngon .p2{
+    position: absolute;
+    top: 180px;
+    left: 580px;
+    z-index: 2;
+}
+.content .trietly{
+    width: 80%;
+    height: 330px;
+    margin: auto;
+}
+.content .trietly h2{
+    padding-top: 50px;
+    font-weight: 700;
+    font-family: "Oswald", sans-serif;
+    color: #555555;
+}
+.content .trietly p{
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+    color: #555555;
+    text-align: justify;
+    text-indent: 40px;
+    line-height: 35px;
+}   
+
+/* Start my skill */
+.myskill{
+    position: relative;
+    height: 360px;
+    background: url(image/myskill.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.myskill::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 360px;
+    background: rgba(0, 0, 0, 0.28);
+    background-attachment: fixed;
+}
+.myskill h2{
+    position: absolute;
+    top: 30px;
+    left: 571px;
+    z-index: 2;
+    /* padding-top: 20px;
+    padding-bottom: 25px; */
+    color: white;
+    font-weight: 700;
+    font-family: "Oswald", sans-serif;
+}
+.myskill .conta{
+    position: absolute;
+    top: 101px;
+    left: 136px;
+    z-index: 2;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.progress-circle {
+    font-size: 30px;
+    margin: 20px;
+    position: relative; /* so that children can be absolutely positioned */
+    padding: 0;
+    width: 5em;
+    height: 5em;
+    background-color: #F2E9E1; 
+    border-radius: 50%;
+    line-height: 5em;
+}
+
+.progress-circle:after{
+    border: none;
+    position: absolute;
+    top: 0.35em;
+    left: 0.35em;
+    text-align: center;
+    display: block;
+    border-radius: 50%;
+    width: 4.3em;
+    height: 4.3em;
+    background-color: white;
+    content: " ";
+}
+/* Text inside the control */
+.progress-circle span {
+    position: absolute;
+    line-height: 5em;
+    width: 5em;
+    text-align: center;
+    display: block;
+    color: #53777A;
+    z-index: 2;
+}
+.left-half-clipper { 
+    /* a round circle */
+    border-radius: 50%;
+    width: 5em;
+    height: 5em;
+    position: absolute; /* needed for clipping */
+    clip: rect(0, 5em, 5em, 2.5em); /* clips the whole left half*/ 
+}
+/* when p>50, don't clip left half*/
+.progress-circle.over50 .left-half-clipper {
+    clip: rect(auto,auto,auto,auto);
+}
+.value-bar {
+    /*This is an overlayed square, that is made round with the border radius,
+    then it is cut to display only the left half, then rotated clockwise
+    to escape the outer clipping path.*/ 
+    position: absolute; /*needed for clipping*/
+    clip: rect(0, 2.5em, 5em, 0);
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+    border: 0.45em solid #53777A; /*The border is 0.35 but making it larger removes visual artifacts */
+    /*background-color: #4D642D;*/ /* for debug */
+    box-sizing: border-box;
+
+}
+/* Progress bar filling the whole right half for values above 50% */
+.progress-circle.over50 .first50-bar {
+    /*Progress bar for the first 50%, filling the whole right half*/
+    position: absolute; /*needed for clipping*/
+    clip: rect(0, 5em, 5em, 2.5em);
+    background-color: #53777A;
+    border-radius: 50%;
+    width: 5em;
+    height: 5em;
+}
+.progress-circle:not(.over50) .first50-bar{ display: none; }
+
+
+/* Progress bar rotation position */
+.progress-circle.p0 .value-bar { display: none; }
+.progress-circle.p1 .value-bar { transform: rotate(4deg); }
+.progress-circle.p2 .value-bar { transform: rotate(7deg); }
+.progress-circle.p3 .value-bar { transform: rotate(11deg); }
+.progress-circle.p4 .value-bar { transform: rotate(14deg); }
+.progress-circle.p5 .value-bar { transform: rotate(18deg); }
+.progress-circle.p6 .value-bar { transform: rotate(22deg); }
+.progress-circle.p7 .value-bar { transform: rotate(25deg); }
+.progress-circle.p8 .value-bar { transform: rotate(29deg); }
+.progress-circle.p9 .value-bar { transform: rotate(32deg); }
+.progress-circle.p10 .value-bar { transform: rotate(36deg); }
+.progress-circle.p11 .value-bar { transform: rotate(40deg); }
+.progress-circle.p12 .value-bar { transform: rotate(43deg); }
+.progress-circle.p13 .value-bar { transform: rotate(47deg); }
+.progress-circle.p14 .value-bar { transform: rotate(50deg); }
+.progress-circle.p15 .value-bar { transform: rotate(54deg); }
+.progress-circle.p16 .value-bar { transform: rotate(58deg); }
+.progress-circle.p17 .value-bar { transform: rotate(61deg); }
+.progress-circle.p18 .value-bar { transform: rotate(65deg); }
+.progress-circle.p19 .value-bar { transform: rotate(68deg); }
+.progress-circle.p20 .value-bar { transform: rotate(72deg); }
+.progress-circle.p21 .value-bar { transform: rotate(76deg); }
+.progress-circle.p22 .value-bar { transform: rotate(79deg); }
+.progress-circle.p23 .value-bar { transform: rotate(83deg); }
+.progress-circle.p24 .value-bar { transform: rotate(86deg); }
+.progress-circle.p25 .value-bar { transform: rotate(90deg); }
+.progress-circle.p26 .value-bar { transform: rotate(94deg); }
+.progress-circle.p27 .value-bar { transform: rotate(97deg); }
+.progress-circle.p28 .value-bar { transform: rotate(101deg); }
+.progress-circle.p29 .value-bar { transform: rotate(104deg); }
+.progress-circle.p30 .value-bar { transform: rotate(108deg); }
+.progress-circle.p31 .value-bar { transform: rotate(112deg); }
+.progress-circle.p32 .value-bar { transform: rotate(115deg); }
+.progress-circle.p33 .value-bar { transform: rotate(119deg); }
+.progress-circle.p34 .value-bar { transform: rotate(122deg); }
+.progress-circle.p35 .value-bar { transform: rotate(126deg); }
+.progress-circle.p36 .value-bar { transform: rotate(130deg); }
+.progress-circle.p37 .value-bar { transform: rotate(133deg); }
+.progress-circle.p38 .value-bar { transform: rotate(137deg); }
+.progress-circle.p39 .value-bar { transform: rotate(140deg); }
+.progress-circle.p40 .value-bar { transform: rotate(144deg); }
+.progress-circle.p41 .value-bar { transform: rotate(148deg); }
+.progress-circle.p42 .value-bar { transform: rotate(151deg); }
+.progress-circle.p43 .value-bar { transform: rotate(155deg); }
+.progress-circle.p44 .value-bar { transform: rotate(158deg); }
+.progress-circle.p45 .value-bar { transform: rotate(162deg); }
+.progress-circle.p46 .value-bar { transform: rotate(166deg); }
+.progress-circle.p47 .value-bar { transform: rotate(169deg); }
+.progress-circle.p48 .value-bar { transform: rotate(173deg); }
+.progress-circle.p49 .value-bar { transform: rotate(176deg); }
+.progress-circle.p50 .value-bar { transform: rotate(180deg); }
+.progress-circle.p51 .value-bar { transform: rotate(184deg); }
+.progress-circle.p52 .value-bar { transform: rotate(187deg); }
+.progress-circle.p53 .value-bar { transform: rotate(191deg); }
+.progress-circle.p54 .value-bar { transform: rotate(194deg); }
+.progress-circle.p55 .value-bar { transform: rotate(198deg); }
+.progress-circle.p56 .value-bar { transform: rotate(202deg); }
+.progress-circle.p57 .value-bar { transform: rotate(205deg); }
+.progress-circle.p58 .value-bar { transform: rotate(209deg); }
+.progress-circle.p59 .value-bar { transform: rotate(212deg); }
+.progress-circle.p60 .value-bar { transform: rotate(216deg); }
+.progress-circle.p61 .value-bar { transform: rotate(220deg); }
+.progress-circle.p62 .value-bar { transform: rotate(223deg); }
+.progress-circle.p63 .value-bar { transform: rotate(227deg); }
+.progress-circle.p64 .value-bar { transform: rotate(230deg); }
+.progress-circle.p65 .value-bar { transform: rotate(234deg); }
+.progress-circle.p66 .value-bar { transform: rotate(238deg); }
+.progress-circle.p67 .value-bar { transform: rotate(241deg); }
+.progress-circle.p68 .value-bar { transform: rotate(245deg); }
+.progress-circle.p69 .value-bar { transform: rotate(248deg); }
+.progress-circle.p70 .value-bar { transform: rotate(252deg); }
+.progress-circle.p71 .value-bar { transform: rotate(256deg); }
+.progress-circle.p72 .value-bar { transform: rotate(259deg); }
+.progress-circle.p73 .value-bar { transform: rotate(263deg); }
+.progress-circle.p74 .value-bar { transform: rotate(266deg); }
+.progress-circle.p75 .value-bar { transform: rotate(270deg); }
+.progress-circle.p76 .value-bar { transform: rotate(274deg); }
+.progress-circle.p77 .value-bar { transform: rotate(277deg); }
+.progress-circle.p78 .value-bar { transform: rotate(281deg); }
+.progress-circle.p79 .value-bar { transform: rotate(284deg); }
+.progress-circle.p80 .value-bar { transform: rotate(288deg); }
+.progress-circle.p81 .value-bar { transform: rotate(292deg); }
+.progress-circle.p82 .value-bar { transform: rotate(295deg); }
+.progress-circle.p83 .value-bar { transform: rotate(299deg); }
+.progress-circle.p84 .value-bar { transform: rotate(302deg); }
+.progress-circle.p85 .value-bar { transform: rotate(306deg); }
+.progress-circle.p86 .value-bar { transform: rotate(310deg); }
+.progress-circle.p87 .value-bar { transform: rotate(313deg); }
+.progress-circle.p88 .value-bar { transform: rotate(317deg); }
+.progress-circle.p89 .value-bar { transform: rotate(320deg); }
+.progress-circle.p90 .value-bar { transform: rotate(324deg); }
+.progress-circle.p91 .value-bar { transform: rotate(328deg); }
+.progress-circle.p92 .value-bar { transform: rotate(331deg); }
+.progress-circle.p93 .value-bar { transform: rotate(335deg); }
+.progress-circle.p94 .value-bar { transform: rotate(338deg); }
+.progress-circle.p95 .value-bar { transform: rotate(342deg); }
+.progress-circle.p96 .value-bar { transform: rotate(346deg); }
+.progress-circle.p97 .value-bar { transform: rotate(349deg); }
+.progress-circle.p98 .value-bar { transform: rotate(353deg); }
+.progress-circle.p99 .value-bar { transform: rotate(356deg); }
+.progress-circle.p100 .value-bar { transform: rotate(360deg); }
+
+.name_skill{
+    margin: auto;
+    width: 89%;
+    display: flex;
+    position: absolute;
+    top: 281px;
+    left: 80px;
+    z-index: 2;
+}
+.name_skill p{
+    width: 25%;
+    color: white;
+    font-weight: 500;
+    font-family: "Oswald", sans-serif;
+}
+/* end my skill */
+
+/* start kinh nghiem */
+.timeline{
+    position: relative;
+    width: 100%;
+    margin-top: 41px;
+    background: #ffffff;
+}
+.timeline > i{
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.712);
+    position: absolute;
+    top: -69px;
+    left: 645px;
+    z-index: 1;
+}
+.timeline > p{
+    position: absolute;
+    top: 61px;
+    left: 645px;
+    z-index: 1;
+    padding: 20px 5px;
+    border-radius: 50%;
+    font-weight: 500;
+    font-family: "Oswald", sans-serif;
+    background: rgb(75, 75, 75);
+    color: whitesmoke;
+}
+.timeline ul{
+    padding-left: 0px;
+}
+.timeline ul li{
+    list-style-type: none;
+    position: relative;
+    width: 6px;
+    margin: 0 auto;
+    padding-top: 50px;
+    background: #606160;
+}
+.timeline ul li::after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: oldlace;
+    transform: translateX(-50%);
+}
+.timeline ul li div{
+    position: relative;
+    bottom: 0px;
+    width: 400px;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.712);
+    color: white;
+}
+.timeline ul li div::before{
+    content: '';
+    position: absolute;
+    bottom: 7px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+} 
+.timeline ul li:nth-child(odd) div {
+    left: 45px;
+}
+.timeline ul li:nth-child(odd) div::before {
+    left: -15px;
+    border-width: 8px 16px 8px 0px;
+    border-color: transparent #525151;
+}
+.timeline ul li:nth-child(even) div {
+    left: -470px;
+}
+
+.timeline ul li:nth-child(even) div::before {
+    right: -15px;
+    border-width: 8px 0 8px 16px;
+    border-color: transparent #525151;
+}
+
+.timeline ul li::after {
+    background: #fff;
+    transition: background .5s ease-in-out;
+}
+
+.timeline ul li.in-view::after {
+    background: #525251;
+}
+
+.timeline ul li div {
+    visibility: hidden;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+}
+
+.timeline ul li:nth-child(odd) div {
+    transform: translate3d(200px,0,0);
+}
+
+.timeline ul li:nth-child(even) div {
+    transform: translate3d(-200px,0,0);
+}
+
+.timeline ul li.in-view div {
+    transform: none;
+    visibility: visible;
+    opacity: 1;
+}
+.timeline ul li div .time{
+    font-weight: 500;
+    font-size: 25px;
+    font-family: "Oswald", sans-serif;
+}
+.timeline ul li div .nd{
+    font-weight: 500;
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+}
+/* end kinh nghiem */
+
+.sanpham{
+    margin-top: 100px;
+    width: 100%;
+    background: rgb(114, 113, 113);
+    background-size: cover;
+}
+.sanpham .tieude{
+    font-weight: 700;
+    font-size: 25px;
+    font-family: "Oswald", sans-serif;
+    color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+.sanpham .block{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.sanpham .block ._1block{
+    width: 32%;
+    height: 228px;
+    margin-bottom: 50px;
+    position: relative;
+    overflow: hidden;
+}
+.sanpham .block ._1block::before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background: #ffffffe3;
+    opacity: 0;
+    transition: 0.5s;
+}
+.sanpham .block ._1block img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+.sanpham .block ._1block a{
+    color: black;
+}
+.sanpham .block ._1block .p1{
+    position: absolute;
+    top: -40px;
+    left: 33%;
+    z-index: 3;
+    font-size: 25px;
+    font-family: "Oswald", sans-serif;
+    opacity: 0;
+    transition: 0.5s;
+    padding: 110px 20px;
+}
+.sanpham .block ._1block .p2{
+    position: absolute;
+    top: 117px;
+    left: 100px;
+    z-index: 3;
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+    border-top: 1px solid black;
+    padding-top: 20px;
+    opacity: 0;
+    transition: 0.5s;
+}
+.sanpham .block ._1block:hover .sp{
+    opacity: 1;
+}
+.sanpham .block ._1block:hover::before{
+    opacity: 1;
+}
+.sanpham .block ._1block:hover img{
+    transform: rotate(25deg);
+}
+.sanpham .block ._1block:hover .sp1{
+    margin-left: -70px;
+}
+.sanpham .block ._1block:hover .sp2{
+    margin-left: -42px;
+}
+.sanpham .block ._1block:hover .sp3{
+    margin-left: -61px;
+}
+.sanpham .block ._1block:hover .sp4{
+    margin-left: -40px;
+}
+.sanpham .block ._1block:hover .sp5{
+    margin-left: -72px;
+}
+.sanpham .block ._1block:hover .sp6{
+    margin-left: -21px;
+}

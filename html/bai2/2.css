@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+img.layer2 {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    opacity: 1;
+}
+img.layer2:hover {
+   
+    opacity: 0;
+}
+
+img.layer1 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    opacity: 1;
+}
+
+.motkhoi {
+    width: 400px;
+    height: 400px;
+    position: relative;
+}

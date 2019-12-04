@@ -1,0 +1,25 @@
+Generated File. Do not edit.
+
+[HEADER]
+Version|0.19t|$
+Arch|x86_64-msvc|$
+
+[PLUGINS]
+
+[INVALID]
+C:\Program Files (x86)\Adobe\Adobe Creative Cloud\Utils\npAdobeAAMDetect32.dll|$
+1562274762000|$
+C:\Program Files (x86)\Adobe\Adobe Creative Cloud\Utils\npAdobeAAMDetect64.dll|$
+1562274762000|$
+C:\PROGRA~1\MICROS~2\Office16\NPSPWRAP.DLL|$
+1438311432000|$
+c:\Program Files\Microsoft Silverlight\5.1.50918.0\npctrl.dll|$
+1540301188000|$
+c:\Program Files\Microsoft Silverlight\5.1.50918.0\npctrlui.dll|$
+1540301188000|$
+C:\Program Files\Java\jre1.8.0_221\bin\plugin2\npjp2.dll|$
+1563883040172|$
+C:\Program Files\Java\jre1.8.0_221\bin\dtplugin\npdeployJava1.dll|$
+1563883039938|$
+C:\Program Files (x86)\Foxit Software\Foxit Reader\plugins\npFoxitReaderPlugin.dll|$
+1561566786000|$

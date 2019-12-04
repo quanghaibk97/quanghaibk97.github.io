@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Feedback</title>
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/web.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="feedback-content">
+		<a href="../html/index.html"><i class="fa fa-arrow-left back"></i></a>
+		<div class="feedback-item">
+			<div class="feedback-left">
+				<div class="left-bg"></div>
+				<div class="fbk-left-cap">
+					<p>Feedback</p>
+				</div>
+			</div>
+			<div class="feedback-right">
+				<div class="fb-right-item">
+					<p>Name</p>
+					<input type="text">
+				</div>
+				<div class="fb-right-item">
+					<p>Email<span>*</span></p>
+					<input type="email" id="email">
+				</div>
+				<div class="fb-right-item">
+					<p>Nội dung<span>*</span></p>
+					<textarea name="message" id="" cols="30" rows="10" id="message"></textarea>
+				</div>
+				<div class="fb-right-item">
+					<input type="button" value="Submit" class="submit" onclick="sbm();">
+				</div>
+				<div class="fb-social">
+					<a href="https://www.facebook.com" style="color: white;"><p><i class="fa fa-facebook-f"></i> Facebook</p></a>
+					<a href="https://twitter.com" style="color: white;"><p style="background: #45b1f4;"><i class="fa fa-twitter"></i> Twiiter</p></a>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+	<script>
+		var email = document.getElementById("email");
+		var msg = document.getElementById("message");
+		function sbm () {
+			if ((email.value=="")||(msg.value=null)) {
+				alert("mời nhập thông tin");
+			}
+			// else {
+			// 	alert("gửi thành công!")
+			// }
+		}
+	</script>
+</body>
+</html>

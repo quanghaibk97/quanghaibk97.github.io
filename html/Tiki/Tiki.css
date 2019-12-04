@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.row2 {
+    cursor: pointer;
+}
+
+.text {}
+
+.row1 ._1cot {
+    display: flex;
+    width: 150px;
+    height: 100%;
+    margin: 0px 20px;
+}
+
+.row1 {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    background: rgb(29, 113, 171);
+    line-height: 30px;
+}

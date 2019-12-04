@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>HTML_CSS_JS TUTORIAL</title>
+
+	<link rel="stylesheet" href="index3.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+
+</head>
+<body>
+	<div class="week4">
+		<div class="header">
+			<!-- <a href="" class="logo">
+				<img src="pic/ievietnam.png" alt="">
+			</a> -->
+			<ul class="menu">
+				<li><a href="index1.html">GIỚI THIỆU CHUNG</a></li>
+				<li><a href="index2.html">HTML</a></li>
+				<li><a href="index3.html">CSS</a></li>
+				<li><a href="index4.html">JAVASCRIPT</a></li>
+			</ul>
+			<div class="search">
+				<span><input type="text" placeholder="Tìm kiếm..." ></span>
+                <span><button><i class="fas fa-search"></i></button></span>
+			</div>
+		</div>
+		<div class="banner_top">
+			<img src="pic/mdn-info2.png" alt="">
+		</div>
+		<!-- end header -->
+
+		<div class="content">
+            <div class="_1row">
+                <h2>1.CSS LÀ GÌ    </h2>
+                <p>CSS là chữ viết tắt của Cascading Style Sheets, nó là một ngôn ngữ được sử dụng để tìm và định dạng lại các phần tử được tạo ra bởi các ngôn ngữ đánh dấu (ví dụ như HTML). Bạn có thể hiểu đơn giản rằng, nếu HTML đóng vai trò định dạng các phần tử trên website như việc tạo ra các đoạn văn bản, các tiêu đề, bảng,…thì CSS sẽ giúp chúng ta có thể thêm một chút “phong cách” vào các phần tử HTML đó như đổi màu sắc trang, đổi màu chữ, thay đổi cấu trúc,…rất nhiều.</p>
+                <img src="pic/kn_css.jpg" alt="">
+                <P>Phương thức hoạt động của CSS là nó sẽ tìm dựa vào các vùng chọn, vùng chọn có thể là tên một thẻ HTML, tên một ID, class hay nhiều kiểu khác. Sau đó là nó sẽ áp dụng các thuộc tính cần thay đổi lên vùng chọn đó.</P>
+            </div>
+            <div class="_1row">
+                <h2>2. CÚ PHÁP CƠ BẢN CỦA CSS</h2>
+                <p>Cú pháp cơ bản của CSS bao gồm 3 phần: vùng chọn (selector), thuộc tính (property) và giá trị (value).</p>
+                <img src="pic/cuphap1.jpg" alt="">
+                <ul>
+                    <li>Vùng chọn: là cách xác định các thẻ HTML dựa trên cấu trúc phân cấp của HTML. Vùng chọn có thể được tạo nên dựa trên nhiều yếu tố như định danh (id), tên lớp (class), quan hệ cha – con – hậu duệ… Bạn có thể xem ví dụ trực quan về một số vùng chọn CSS tại đây, hoặc đọc thêm tại W3S.</li>
+                    <li>Thuộc tính: là yếu tố bạn muốn thay đổi ở các thẻ HTML thuộc vùng chọn. Danh sách các thuộc tính có thể xem thêm tại W3S.</li>
+                    <li>Giá trị: mỗi thuộc tính sẽ yêu cầu một giá trị khác nhau. Đó có thể là 1 từ khóa định sẵn (none, block), một tên màu hay mã màu (black, white, #000, #FFFFFF), hay một giá trị kích thước tính bằng px, em, rem, %.</li>
+                    
+                </ul>
+            </div>
+            <div class="_1row">
+                <h2>3. CÁC VÙNG CHỌN CSS</h2>
+                <ul>
+                    <li>#ID <br> Dấu # được sử dụng để chọn một thẻ HTML có định danh cụ thể (ID). Do đó, bản chất của việc sử dụng ID không thể tái sử dụng. Hãy chắc chắn rằng việc gán ID cho thẻ HTML và chọn thẻ này bằng ID này là cách duy nhất bạn có thể định dạng cho nó. </li>
+                    <img src="pic/vungchon1.jpg" alt="">
+                    <li>.Class <br> Dấu “.” đại diện cho tên lớp. Nhiều thẻ HTML có thể có cùng tên lớp. Do đó, sự khác nhau giữa ID và Class là: ID chỉ cho phép chọn 1 phần tử, còn Class cho phép bạn chọn nhiều thẻ HTML cùng lúc.</li>
+                    <img src="pic/vungchon2.JPG" alt="">
+                    <li>A.Class <br> Vùng chọn này giúp xác định tất cả các thẻ HTML cùng thuộc một lớp.</li>  
+                    <li>A B <br> Vùng chọn này còn được gọi là vùng chọn hậu duệ (descendant). Vùng chọn này sẽ xác định tất cả các thẻ B nằm bên trong thẻ A, không kể phân cấp, ngôi thứ như là con, là cháu, là chắt chút chít gì đó.</li>
+                    <li> A > B <br> Vùng chọn này còn được gọi là vùng chọn con (child), và có nét tương đồng với vùng chọn hậu duệ. Tuy nhiên, vùng chọn này chỉ xác định tất cả các thẻ B là con trực tiếp của thẻ A, chứ không nằm bên trong thẻ nào khác.</li>
+                </ul>
+            </div>
+            
+			
+		</div>
+		<script type="text/javascript" src="1.js"></script>
+	</div>
+</body>
+</html>
