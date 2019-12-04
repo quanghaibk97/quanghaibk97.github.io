@@ -1,0 +1,271 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.dhhn{
+    width: 100%;
+    position: relative;
+}
+.dhhn .top{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+.dhhn .top .bg_top_1{
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+}
+.dhhn .top .bg_top_1 img{
+    width: 100%;
+    height: 400px;
+}
+.dhhn .top .phantren{
+    width: 950px;
+    height: 90px;
+    display: flex;
+    position: absolute;
+    z-index: 4;
+    top: 20px;
+    left: 260px;
+}
+.dhhn .top .phantren .left{
+    width: 475px;
+    margin-top: 15px;
+    text-decoration: none;
+    display: flex;
+}
+.dhhn .top .phantren .left .logo img {
+    width: 70px;
+    border-: 1px solid rgb(255, 189, 189);
+    border-radius: 5px;
+}
+.dhhn .top .phantren .left .text {
+    margin-top: 5px;
+    margin-left: 10px;
+    font-family: Calibri!important;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+.dhhn .top .phantren .left .text .text2{
+    margin-top: 5px;
+    font-size: 18px;
+    font-family: segoe ui light;
+}
+.dhhn .top .phantren .right{
+    width: 475px;
+    margin-top: 27px;
+    margin-left: 220px;
+    color: rgb(221, 248, 248);
+}
+.dhhn .top .phantren .right .search{
+    width: 300px;
+}
+.dhhn .top .phantren .right .search input{
+    width: 200px;
+    height: 28px;
+}
+.dhhn .top .phantren .right .search button{
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+}
+.dhhn .top .slide{
+    width: 1210px;
+    height: 160px;
+    position: absolute;
+    z-index: 4;
+    top: 154px;
+    left: 70px;
+}
+
+.dhhn .top .slide img{
+    width: 100%;    
+}
+/* End top */
+
+.dhhn .menu {
+    width: 1210px;
+    height: 40px;
+    background: #af0202;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 5;
+    top: 345px;
+    left: 70px;
+    font-family: Calibri!important;
+    font-size: 20px;
+}
+.dhhn .menu > ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    list-style-type: none;
+}
+.dhhn .menu > ul > a{
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 18.3px;
+    color: rgb(255, 255, 255);
+    transition: 0.4s;
+}
+.dhhn .menu > ul > a:hover{
+    background: #7c00298c;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+/* End menu */
+
+.dhhn .lienhe{
+    width: 1210px;
+    position: absolute;
+    z-index: 6;
+    left: 70px;
+    top: 450px;
+}
+.dhhn .lienhe .lh{
+    font-family: Calibri!important;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #9e100e;
+    margin-left: 500px;
+    font-weight: bold;
+}
+.dhhn .lienhe .nd{
+    display: flex;  
+}
+.dhhn .lienhe .nd .nd_right{
+    width: 600px;
+    margin-left: 30px;  
+}
+.dhhn .lienhe .nd .nd_right p{
+    font-family: Calibri!important;
+    font-size: 19px;
+    color: #000000;  
+}
+.dhhn .lienhe .nd .nd_right {
+
+}
+.dhhn .lienhe .nd .nd_right input {
+    font-size: 25px;
+    width: 400px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-left: 115px;
+    border-radius: 5px;
+}
+.dhhn .lienhe .nd .nd_right .noidung   {
+    height: 170px;
+}
+.dhhn .lienhe .nd .nd_right a{
+    text-decoration: none;
+}
+.dhhn .lienhe .nd .nd_right a p{
+    width: 60px;
+    margin-top: 10px;
+    margin-left: 285px;
+    font-family: Calibri!important;
+    text-align: center;
+    background: #ad0000;
+    color: white;
+    border-radius: 5px;
+}
+.dhhn .lienhe .nd .nd_left{
+    width: 510px;
+    font-family: Calibri!important;
+    font-size: 17px;
+    margin-bottom: 20px;
+    color: #9e100e;
+    /* text-align: center; */
+    font-weight: bold;
+}
+.dhhn .lienhe .nd .nd_left a img{
+    /* margin-left: 8px; */
+    width: 490px;
+    transition: 0.5s;
+    margin-top: 10px;
+}
+.dhhn .lienhe .nd .nd_left a img:hover{
+    transform: scale(1.05);
+}
+.dhhn .footer{
+    width: 100%;
+    height: 200px;
+    background: url(pictures/bg_footer2.jpg);
+    position: absolute;
+    z-index: 20;
+    top: 1150px;
+    display: flex;
+}
+.dhhn .footer .col1{
+    width: 380px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.dhhn .footer .col1 a img{
+    width: 55%;
+    height: 100px;
+}
+.dhhn .footer .col1 h3{
+    width: 70%;
+    color: white;
+    font-family: Calibri!important;
+    font-size: 25px;
+}
+.dhhn .footer .col1 h5{
+    width: 70%;
+    color: white;
+    font-family: Calibri!important;
+    font-size: 22px;
+}
+.dhhn .footer .col2{
+    width: 300px;
+    margin-top: 18px;
+}
+.dhhn .footer .col2 h3{
+    color: white;
+    font-family: Calibri!important;
+    font-size: 25;
+}
+.dhhn .footer .col2 .logo{
+    font-size: 32px;
+    margin-left: 25px;
+}
+.dhhn .footer .col2 .logo a{
+    color: white;
+}
+.dhhn .footer .col2 a{
+    text-decoration: none;
+}
+.dhhn .footer .col2 a .phanhoi{
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 140px;
+    color: rgb(255, 0, 0);
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 22px;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+}
+.dhhn .footer .col3{
+    width: 550px;
+    margin-top: 18px;
+    display: flex;
+}
+.dhhn .footer .col3 img{
+    width: 130px;
+    height: 130px;
+    margin-right: 10px;
+}
+.dhhn .footer .col3 .text{
+    margin-top: 0px;
+    font-family: Calibri!important;
+    font-size: 17px;
+    color: white;
+}
+.dhhn .footer .col3 .text .tentruong{
+    font-size: 20px;
+}
+
