@@ -1,5 +1,0 @@
-https://freetuts.net/editor.html?id=288
-https://thachpham.com/web-development/html-css/html-va-css-can-ban-danh-cho-cho-moi-nguoi.html
-http://webcoban.vn/
-<h1>Hello</h1>
-    <p1>Nice to meet you</p>
